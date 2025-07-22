@@ -14,7 +14,17 @@ export default function App() {
           <Dictionary />
         </main>
         <footer className="App-footer">
-        <small>Coded by SheCodes</small>
+        This project was coded by{" "}
+        <a href="https://github.com/jkdeberry" target="_blank" rel="noopener noreferrer">
+        Jeanine DeBerry</a>
+        , and it is open-sourced on{" "}
+        <a href="https://github.com/jkdeberry/jd-dictionary-project" target="_blank" rel="noopener noreferrer">
+        GitHub
+        </a>{" "}
+        and hosted on{" "}
+        <a href="https://jd-dictionary-project.netlify.app/" target="_blank" rel="noopener noreferrer">
+        Netlify
+        </a>.
         </footer>
       </div>
     </div>

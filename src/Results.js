@@ -11,8 +11,7 @@ export default function Results({ data }) {
       {data.meanings.map((meaning, index) => (
         <div key={index} className="Meaning">
           <p><strong>Part of Speech:</strong> {meaning.partOfSpeech}</p>
-
-
+					
           {meaning.definition && (
             <p><strong>Definition:</strong> {meaning.definition}</p>
           )}
