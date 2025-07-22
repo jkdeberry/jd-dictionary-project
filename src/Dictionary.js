@@ -9,7 +9,8 @@ export default function Dictionary() {
   const [results, setResults] = useState(null);
 
   function handleResponse(response) {
-    console.log("Phonetics:", response.data.phonetics);
+    console.log("API response:", response.data);
+    
     if (typeof response.data === "string") {
       alert("Error from API" + response.data);
       return;
