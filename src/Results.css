@@ -1,0 +1,44 @@
+.Results {
+  margin-top: 20px;
+  padding: 20px;
+  background: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.Results h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.phonetic {
+  font-size: 1.2rem;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.meaning {
+  margin-bottom: 20px;
+  padding-left: 10px;
+  border-left: 3px solid #007bff;
+}
+
+.meaning h3 {
+  font-size: 1.1rem;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.definition {
+  margin-bottom: 10px;
+}
+
+.definition p {
+  margin: 4px 0;
+}
+
+.example {
+  color: #555;
+  font-style: italic;
+}

@@ -1,4 +1,31 @@
-.Dictionary {
-  
+:root {
+  --bs-gutter-x: 0.75rem;
+}
+
+.site-search {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  flex: 1;
+}
+
+.button {
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.Results {
+  margin-top: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.Meaning {
+  background: #f9f9f9;
+  padding: 10px;
+  margin: 10px 0;
+  border-left: 4px solid #007bff;
 }
 
